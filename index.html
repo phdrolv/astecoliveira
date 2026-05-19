@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astec Oliveira — Assistência Técnica de Celulares</title>
+  <link rel="icon" type="image/jpeg" href="assets/img/astec-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cloudflare.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Nunito:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- MOBILE NAV (CSS-only toggle via checkbox) -->
+  <input type="checkbox" id="nav-toggle" hidden />
+
+  <nav class="mobile-nav">
+    <label for="nav-toggle"><a href="#hero">Início</a></label>
+    <label for="nav-toggle"><a href="#servicos">Serviços</a></label>
+    <label for="nav-toggle"><a href="#porque">Por que nós</a></label>
+    <label for="nav-toggle"><a href="#marcas">Marcas</a></label>
+    <label for="nav-toggle"><a href="#depoimentos">Depoimentos</a></label>
+    <label for="nav-toggle"><a href="#contato">Contato</a></label>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="header">
+    <a class="logo-wrap" href="#hero">
+      <div class="logo-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+      <div class="logo-text"><span>Astec</span> Oliveira</div>
+    </a>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#porque">Diferenciais</a>
+      <a href="#marcas">Marcas</a>
+      <a href="#depoimentos">Avaliações</a>
+      <a href="#contato" class="nav-cta">Orçamento</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Alternar tema" title="Alternar tema claro/escuro">
+      <i class="fa-solid fa-sun" id="theme-icon"></i>
+    </button>
+    <label for="nav-toggle" class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </label>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="hero-badge"><i class="fa-solid fa-star"></i> Especialistas em Celulares desde 2016</div>
+        <h1 class="hero-title">
+          Seu celular merece<br>
+          <span class="highlight">o melhor cuidado</span>
+        </h1>
+        <p class="hero-sub">
+          Assistência técnica especializada com diagnóstico gratuito, peças originais e garantia em todos os serviços.
+          Qualidade que você pode confiar.
+        </p>
+        <div class="hero-btns">
+          <a href="https://wa.me/5519981497218" target="_blank" class="btn-primary">
+            <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+          </a>
+          <a href="#servicos" class="btn-outline">
+            <i class="fa-solid fa-wrench"></i> Ver Serviços
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="num">1500+</div>
+            <div class="lbl">Aparelhos Recuperados</div>
+          </div>
+          <div class="hero-stat">
+            <div class="num">99%</div>
+            <div class="lbl">Clientes Satisfeitos</div>
+          </div>
+          <div class="hero-stat">
+            <div class="num">90D</div>
+            <div class="lbl">Garantia em Todos os Serviços</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos">
+      <div class="container">
+        <div class="header">
+          <span class="section-label">O que fazemos</span>
+          <h2 class="section-title">Nossos <em>Serviços</em></h2>
+          <div class="gold-divider"></div>
+          <p class="section-desc">Reparos rápidos e confiáveis com técnicos experientes e peças de qualidade garantida.
+          </p>
+        </div>
+        <div class="services-grid reveal">
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-display"></i></div>
+            <h3>Troca de Tela</h3>
+            <p>Substituição de telas quebradas ou com defeito. Trabalhamos com displays originais e compatíveis de alta
+              qualidade para todas as marcas.</p>
+          </div>
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-battery-full"></i></div>
+            <h3>Substituição de Bateria</h3>
+            <p>Baterias novas para resolver problemas de duração e autonomia. Seu celular como novo, aguenta o dia todo.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-droplet-slash"></i></div>
+            <h3>Danos por Líquidos</h3>
+            <p>Limpeza ultrassônica especializada e recuperação de aparelhos molhados. Rápido e eficaz.</p>
+          </div>
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-plug-circle-bolt"></i></div>
+            <h3>Conector de Carga</h3>
+            <p>Substituição de conectores USB-C, Lightning ou micro-USB danificados. Seu celular voltando a carregar
+              normalmente.</p>
+          </div>
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-camera"></i></div>
+            <h3>Reparo de Câmera</h3>
+            <p>Conserto e substituição de módulos de câmera frontal e traseira. Fotos nítidas de volta.</p>
+          </div>
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-microchip"></i></div>
+            <h3>Manutenção de Placa</h3>
+            <p>Microssoldagem e reparo de placa-mãe para problemas mais complexos. Diagnóstico gratuito incluso.</p>
+          </div>
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-volume-high"></i></div>
+            <h3>Alto-falante e Áudio</h3>
+            <p>Conserto de problemas de som, microfone, alto-falante e fone de ouvido. Ouça e fale com qualidade.</p>
+          </div>
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Película e Proteção</h3>
+            <p>Instalação de películas de vidro temperado e capinhas protetoras para manter seu aparelho seguro.</p>
+          </div>
+          <div class="service-card">
+            <div class="svc-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Software e Sistema</h3>
+            <p>Atualização, formatação, remoção de vírus e recuperação de dados. Seu celular rápido como no primeiro
+              dia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUE NÓS -->
+    <section id="porque">
+      <div class="container">
+        <div class="porque-wrap">
+          <div class="porque-left reveal">
+            <span class="section-label">Nossos diferenciais</span>
+            <h2 class="section-title">Por que escolher a <br> <em>Astec Oliveira?</em></h2>
+            <div class="gold-divider"></div>
+            <div class="porque-list">
+              <div class="porque-item">
+                <div class="porque-check"><i class="fa-solid fa-check"></i></div>
+                <div>
+                  <h4>Diagnóstico 100% gratuito</h4>
+                  <p>Avaliamos seu aparelho sem nenhum custo. Só pagará se decidir realizar o reparo.</p>
+                </div>
+              </div>
+              <div class="porque-item">
+                <div class="porque-check"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <h4>Atendimento no mesmo dia</h4>
+                  <p>A maioria dos reparos é concluída em até 2 horas. Rápido, sem sacrificar a qualidade.</p>
+                </div>
+              </div>
+              <div class="porque-item">
+                <div class="porque-check"><i class="fa-solid fa-shield-halved"></i></div>
+                <div>
+                  <h4>90 dias de garantia</h4>
+                  <p>Todos os serviços têm garantia de 90 dias. Se algo der errado, resolvemos sem custo.</p>
+                </div>
+              </div>
+              <div class="porque-item">
+                <div class="porque-check"><i class="fa-solid fa-gem"></i></div>
+                <div>
+                  <h4>Peças originais e certificadas</h4>
+                  <p>Utilizamos apenas componentes de qualidade comprovada para garantir a durabilidade.</p>
+                </div>
+              </div>
+              <div class="porque-item">
+                <div class="porque-check"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                <div>
+                  <h4>Preço justo e transparente</h4>
+                  <p>Orçamento claro e sem surpresas. Você aprova antes de qualquer serviço ser realizado.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="porque-visual reveal">
+            <div class="porque-ring">
+              <div class="porque-ring-inner">
+                <div class="big">10+</div>
+                <div class="small">Anos de experiência</div>
+              </div>
+              <div class="porque-dot"><i class="fa-solid fa-star"></i></div>
+              <div class="porque-dot"><i class="fa-solid fa-award"></i></div>
+              <div class="porque-dot"><i class="fa-solid fa-users"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARCAS ATENDIDAS -->
+    <section id="marcas">
+      <div class="container">
+        <div class="header">
+          <span class="section-label">Compatibilidade</span>
+          <h2 class="section-title">Marcas <em>Atendidas</em></h2>
+          <div class="gold-divider" style="margin: 1rem auto;"></div>
+          <p class="section-desc" style="margin: 0 auto;">Consertamos celulares de todas as principais marcas do
+            mercado.</p>
+        </div>
+        <div style="margin-top: 2.5rem;"></div>
+        <div class="marcas-grid reveal">
+          <div class="marca-badge"><i class="fa-brands fa-apple"></i><span>Apple iPhone</span></div>
+          <div class="marca-badge"><img src="assets/img/samsung.png" /><span>Samsung</span></div>
+          <div class="marca-badgemoto"><img src="assets/img/motorola.png" /><span>Motorola</span></div>
+          <div class="marca-badgexiaomi"><img src="assets/img/xiaomi.png" /><span>Xiaomi</span></div>
+          <div class="marca-badgelg"><img src="assets/img/lg.png" /><span>LG</span></div>
+          <div class="marca-badgepositivo"><img src="assets/img/positivo.png" /><span>Positivo</span></div>
+          <div class="marca-badgerealme"><img src="assets/img/realme.png" /><span>Realme</span></div>
+          <div class="marca-badgemultilaser"><img src="assets/img/multilaser.png" /><span>Multilaser</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos">
+      <div class="container">
+        <div class="header">
+          <span class="section-label">Avaliações</span>
+          <h2 class="section-title">O que dizem nossos <em>clientes</em></h2>
+          <div class="gold-divider"></div>
+          <p class="section-desc" style="margin: 0 auto;">Mais de 5.000 clientes satisfeitos com nossos serviços. Veja o
+            que eles falam.</p>
+        </div>
+        <div style="margin-top: 2.5rem;"></div>
+        <div class="depo-grid reveal">
+          <div class="depo-card">
+            <div class="stars">★★★★★</div>
+            <p>"Levei meu iPhone com a tela quebrada e em menos de 2 horas já estava como novo. Atendimento impecável e
+              preço justo. Super recomendo!"</p>
+            <div class="depo-author">
+              <div class="depo-avatar">MF</div>
+              <div>
+                <div class="depo-name">Maria Fernanda</div>
+                <div class="depo-role">Cliente fiel há 3 anos</div>
+              </div>
+            </div>
+          </div>
+          <div class="depo-card">
+            <div class="stars">★★★★★</div>
+            <p>"Meu Samsung caiu na água e achei que teria perdido tudo. A Astec Oliveira fez uma limpeza e recuperou
+              100%. Muito profissional!"</p>
+            <div class="depo-author">
+              <div class="depo-avatar">CR</div>
+              <div>
+                <div class="depo-name">Carlos Roberto</div>
+                <div class="depo-role">Cliente satisfeito</div>
+              </div>
+            </div>
+          </div>
+          <div class="depo-card">
+            <div class="stars">★★★★★</div>
+            <p>"Sempre venho aqui para qualquer problema de celular. Ótimo preço, serviço de qualidade e garantia de
+              verdade. Local de confiança!"</p>
+            <div class="depo-author">
+              <div class="depo-avatar">PS</div>
+              <div>
+                <div class="depo-name">Patricia Silva</div>
+                <div class="depo-role">Cliente há 5 anos</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+      <div class="container">
+        <div class="contato-wrap">
+          <div class="reveal">
+            <span class="section-label">Fale conosco</span>
+            <h2 class="section-title">Entre em <em>contato</em></h2>
+            <div class="gold-divider"></div>
+            <p class="section-desc" style="margin-bottom: 2.5rem;">Estamos prontos para resolver o problema do seu
+              celular. Venha nos visitar ou mande uma mensagem!</p>
+            <div class="contato-info">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div>
+                  <h4>WhatsApp</h4>
+                  <p><a href="https://wa.me/5519981497218" target="_blank">(19) 98149-7218</a></p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <h4>Endereço</h4>
+                  <p><a href="https://maps.app.goo.gl/71KwKaRdac5BEcZNA" target="_blank">Rua Goianésia, 970 — Sumaré,
+                      SP</a></p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <h4>Horário de Funcionamento</h4>
+                  <p>Seg–Sex: 8h às 18h &nbsp;|&nbsp; Sáb: 8h às 14h &nbsp;|&nbsp; Dom: 8h às 12h</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <h4>E-mail</h4>
+                  <p><a href="mailto:Email ronaldogoncalves718@gmail.com">Email ronaldogoncalves718@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reveal">
+            <div class="form-card">
+              <h3>Solicite um Orçamento</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Nome</label>
+                  <input type="text" placeholder="Seu nome" />
+                </div>
+                <div class="form-group">
+                  <label>Telefone</label>
+                  <input type="tel" placeholder="(19) 99999-9999" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Marca e Modelo</label>
+                <input type="text" placeholder="Ex: iPhone 17, Samsung S26..." />
+              </div>
+              <div class="form-group">
+                <label>Tipo de Serviço</label>
+                <select>
+                  <option value="">Selecione o serviço...</option>
+                  <option>Troca de Tela</option>
+                  <option>Troca de Bateria</option>
+                  <option>Dano por Líquido</option>
+                  <option>Conector de Carga</option>
+                  <option>Câmera</option>
+                  <option>Software / Sistema</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Descrição do Problema</label>
+                <textarea rows="3" placeholder="Descreva o problema..."></textarea>
+              </div>
+              <a href="https://wa.me/5519981497218" target="_blank" class="btn-form">
+                <i class="fa-brands fa-whatsapp"></i> Enviar pelo WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo-text"><span>Astec</span> Oliveira</div>
+            <p>Assistência técnica especializada em celulares e smartphones. Qualidade, rapidez e garantia em cada
+              reparo.</p>
+            <div class="footer-social">
+              <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-google"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="#servicos">Troca de Tela</a></li>
+              <li><a href="#servicos">Substituição de Bateria</a></li>
+              <li><a href="#servicos">Danos por Líquido</a></li>
+              <li><a href="#servicos">Conector de Carga</a></li>
+              <li><a href="#servicos">Reparo de Câmera</a></li>
+              <li><a href="#servicos">Manutenção de Placa</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Informações</h4>
+            <ul>
+              <li><a href="#porque">Nossos Diferenciais</a></li>
+              <li><a href="#marcas">Marcas Atendidas</a></li>
+              <li><a href="#depoimentos">Avaliações</a></li>
+              <li><a href="#contato">Como Chegar</a></li>
+              <li><a href="#contato">Orçamento</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2025 Astec Oliveira — Todos os direitos reservados.</span>
+          <span>Feito com ♥ em São Paulo, SP</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WHATSAPP FLOAT -->
+    <a href="https://wa.me/5519981497218" target="_blank" class="wa-float" title="Falar no WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- SCROLL TOP (sempre visível, sem JS) -->
+    <a href="#hero" id="scrollTop" title="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></a>
+
+  </main>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
